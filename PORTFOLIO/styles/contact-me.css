@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgb(23, 23, 23);
+    }
+}
+
+.contact-card {
+    padding: 26px 12px;
+}
+
+.contact-card h5 {
+    color: rgb(110, 110, 110);
+    font-weight: 300;
+}
+
+.c-inner-card {
+    padding: 20px;
+}
+
+.firstrow {
+    padding: 12px 300px 0px 300px;
+}
+
+.secondrow {
+    padding: 0px 300px;
+}
+
+.thirdrow {
+    padding: 28px 300px;
+}
+
+.send-btn {
+    padding: 0px 310px;
+    margin-bottom: 30px;
+}
+
+.contact-footer h3 {
+    font-weight: 300;
+}
+
+.cicons {
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+.c-icons #linkedin-c {
+    transition: all 0.4s ease;
+}
+
+.c-icons #github-c {
+    transition: all 0.4s ease;
+}
+
+.c-icons #insta-c {
+    transition: all 0.4s ease;
+}
+
+.c-icons #twitter-c {
+    transition: all 0.4s ease;
+}
+
+.c-icons #linkedin-c:hover {
+    color: rgb(55, 98, 207);
+    cursor: pointer;
+}
+
+.c-icons #github-c:hover {
+    color: rgb(8, 132, 8);
+    cursor: pointer;
+}
+
+.c-icons #insta-c:hover {
+    color: rgb(241, 0, 10);
+    cursor: pointer;
+}
+
+.c-icons #twitter-c:hover {
+    color: rgb(55, 98, 207);
+    cursor: pointer;
+}
+
+.c-icons {
+    padding-top: 6px;
+}
+
+.c-footer {
+    border-top: 1px solid rgba(43, 42, 42, 0.7);
+}
+
+.contact-footer {
+    padding-top: 14px;
+}
+
+@media (max-width: 1300px) {
+    body {
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topBar {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .side2 {
+        padding-left: 10px;
+    }
+
+    .firstrow {
+        padding: 10px;
+    }
+
+    .secondrow {
+        padding: 0px 10px 10px 10px;
+    }
+
+    .thirdrow {
+        padding: 10px;
+    }
+
+    .send-btn {
+        padding: 0px 20px;
+    }
+}

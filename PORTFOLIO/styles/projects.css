@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes fade-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgb(23, 23, 23);
+    }
+}
+
+.project-card1 {
+    padding: 28px 20px;
+    animation: fade-in-right 1s forwards;
+}
+
+.project-card2 {
+    padding: 28px 20px 80px 20px;
+    animation: fade-in-left 1s forwards;
+}
+
+.project-card3 {
+    padding: 28px 20px 100px 20px;
+    animation: fade-in-right 2s forwards;
+}
+
+.project-card4 {
+    animation: fade-in-left 2s forwards;
+}
+
+.footercard2 {
+    padding: 10px 12px;
+    margin-top: 14px;
+    animation: fade-in-up 2s forwards;
+}
+
+.f-icons a {
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+}
+
+@media (max-width: 1300px) {
+    body {
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topBar {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .side2 {
+        padding-left: 10px;
+    }
+}

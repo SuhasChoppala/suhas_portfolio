@@ -1,0 +1,387 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgb(23, 23, 23);
+    }
+}
+
+@keyframes fade-in-down {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes fade-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.card {
+    backdrop-filter: blur(6px) saturate(95%);
+    -webkit-backdrop-filter: blur(6px) saturate(95%);
+    background-color: rgba(64, 64, 79, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+body {
+    background-image: url(../assets/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px 400px;
+}
+
+.topBar {
+
+    backdrop-filter: blur(6px) saturate(95%);
+    -webkit-backdrop-filter: blur(6px) saturate(95%);
+    background-color: rgba(64, 64, 79, 0.11);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 14px;
+    width: 100%;
+    margin-top: 42px;
+    color: rgb(188, 188, 188);
+    animation: fade-in-down 1s forwards;
+}
+
+.infobox {
+    animation: fade-in-right 1s forwards;
+}
+
+.infobox h1 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(53, 50, 50));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.infobox p {
+    text-align: justify;
+}
+
+.infobox2 {
+    animation: fade-in-left 2s forwards;
+}
+
+.infobox2 h4 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(53, 50, 50));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: all 0.4s ease;
+}
+
+.infobox2 p {
+    transition: all 0.4s ease;
+}
+
+
+
+.infobox2:hover h4 {
+    transform: scale(1.07);
+}
+
+.infobox2:hover p {
+    transform: scale(1.07);
+}
+
+
+.contact-btn {
+    color: #fff;
+    background-color: rgba(134, 122, 122, 0.2);
+    padding: 10px 13px;
+    border-radius: 14px;
+    /* transition: all 0.1s ease; */
+}
+
+.contact-btn:hover {
+    /* transform: scale(1.5); */
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+    padding: 9px 13px;
+}
+
+.second-row {
+    margin-top: 22px;
+    border-radius: 14px;
+    color: rgb(188, 188, 188);
+}
+
+.idimg {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 0.4s ease;
+}
+
+.topicons a {
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+}
+
+.icons {
+    font-size: 20px;
+    padding: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 5px;
+    margin-right: 18px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.02);
+    color: rgb(188, 188, 188);
+    border-radius: 14px;
+}
+
+#linkedin {
+    transition: all 0.4s ease;
+}
+
+#github {
+    transition: all 0.4s ease;
+}
+
+#insta {
+    transition: all 0.4s ease;
+}
+
+#twitter {
+    transition: all 0.4s ease;
+}
+
+#linkedin:hover {
+    color: rgb(55, 98, 207);
+    cursor: pointer;
+    border: 1px solid rgb(55, 98, 207);
+    transform: scale(1.3);
+}
+
+#github:hover {
+    color: rgb(8, 132, 8);
+    cursor: pointer;
+    border: 1px solid rgb(8, 132, 8);
+    transform: scale(1.3);
+}
+
+#insta:hover {
+    color: rgb(241, 0, 10);
+    cursor: pointer;
+    border: 1px solid rgb(241, 0, 10);
+    transform: scale(1.3);
+}
+
+#twitter:hover {
+    color: rgb(55, 98, 207);
+    cursor: pointer;
+    border: 1px solid rgb(55, 98, 207);
+    transform: scale(1.3);
+}
+
+#viewall-btn {
+    color: rgb(188, 188, 188);
+    background-color: rgba(134, 122, 122, 0.2);
+    padding: 5px 13px;
+    border-radius: 8px;
+}
+
+#viewall-btn:hover {
+    background-color: transparent;
+    padding: 5px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.third-row {
+    margin-top: 12px;
+    padding: 10px;
+}
+
+.pcard1 {
+    padding: 20px 20px 10px 20px;
+    animation: fade-in-up 3s forwards;
+}
+
+.prows {
+    margin-top: 14px;
+    padding: 12px 10px 12px 10px;
+    border: 1px solid rgba(43, 42, 42, 0.5);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.prows a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(188, 188, 188);
+}
+
+.picons {
+    background-color: rgba(43, 42, 42, 0.4);
+    padding: 16px;
+    border-radius: 14px;
+}
+
+.pnames {
+    padding: 18px;
+}
+
+.educationcard {
+    padding: 20px;
+    animation: fade-in-up 3s forwards;
+}
+
+.educationicon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.eicons {
+    font-size: 10px;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+.edrows {
+    margin-top: 10px;
+    /* padding: 4px; */
+    /* border: 1px solid rgba(43, 42, 42, 0.7); */
+}
+
+.edcards {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.expicon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.expcard {
+    padding: 15px;
+    animation: fade-in-up 3s forwards;
+}
+
+.sliderlines {
+    margin: auto;
+}
+
+#exp1 {
+    margin-top: 8px;
+}
+
+.foot-index {
+    margin-top: 22px;
+    padding: 17px 10px 7px 0px;
+    animation: fade-in-up 4s forwards;
+}
+
+.skills-heading {
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.skill-main {
+    overflow: hidden;
+}
+
+.slide-skills {
+    animation: scroll 20s linear infinite;
+    /* animation-name: loop; */
+    /* animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    white-space: nowrap;
+    display: flex;
+    gap: 10px;
+    color: rgb(188, 188, 188);
+    vertical-align: auto;
+    padding-right: 20px;
+}
+
+.slide-skills h6 {
+    /* display: inline-block; */
+    padding: 3px 15px 0px 15px;
+    font-weight: 300;
+    color: rgb(110, 110, 110);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+        /* Start scrolling from the right edge */
+    }
+
+    100% {
+        transform: translateX(-80.9%);
+        /* Scroll to the left edge */
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topBar {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
